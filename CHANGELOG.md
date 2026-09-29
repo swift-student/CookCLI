@@ -1,5 +1,37 @@
 # Changelog
 
+## [0.38.0](https://github.com/cooklang/cookcli/compare/v0.37.0...v0.38.0) (2026-09-29)
+
+
+### Features
+
+* **i18n:** add Italian translation ([61a3a18](https://github.com/cooklang/cookcli/commit/61a3a18ce6f5bfb4ad4feeb046b2f44187fa6cdb))
+* **i18n:** add Italian translation ([2493e79](https://github.com/cooklang/cookcli/commit/2493e792d5392ddc177d14e745c3e5a6697caf8c))
+* **packaging:** build .deb packages for Debian and Ubuntu ([#577](https://github.com/cooklang/cookcli/issues/577)) ([7932282](https://github.com/cooklang/cookcli/commit/79322824de48d9de02aac7a9fd8e46febf38c7fd))
+* **server:** opt-in sign-in before anything can be changed ([#534](https://github.com/cooklang/cookcli/issues/534)) ([0e8dacf](https://github.com/cooklang/cookcli/commit/0e8dacff35ccdc8f9f01cf649062130a241ff1b6))
+* **server:** read --cors-origin from COOK_CORS_ORIGIN ([dc23f37](https://github.com/cooklang/cookcli/commit/dc23f37ac242164b1b3d3026da98456d184f51b4))
+* **server:** reader / shopper / editor / admin roles for signed-in users ([#563](https://github.com/cooklang/cookcli/issues/563)) ([2c82f28](https://github.com/cooklang/cookcli/commit/2c82f28c43e0442a9cd00eec44ac60c9a8c9ccd8))
+* **ui:** Cooklang toolbar above the recipe editor ([#540](https://github.com/cooklang/cookcli/issues/540)) ([b6f77c9](https://github.com/cooklang/cookcli/commit/b6f77c962bc9106d90e92984dbc697c38df63f42))
+* **ui:** create and edit menus with a recipe picker ([#558](https://github.com/cooklang/cookcli/issues/558)) ([8acfd64](https://github.com/cooklang/cookcli/commit/8acfd648db7dd066a9c24a041838e2c2034b8d13))
+* **ui:** open a menu's recipes at the scale the menu asks for ([#561](https://github.com/cooklang/cookcli/issues/561)) ([4c46135](https://github.com/cooklang/cookcli/commit/4c4613553eb027b0a15b982ed5bfb13e63c9709e))
+* **ui:** random recipe button scoped to the current folder ([#554](https://github.com/cooklang/cookcli/issues/554)) ([73b095b](https://github.com/cooklang/cookcli/commit/73b095b0ac5a305e43d46c10412a2fa201cb924b)), closes [#544](https://github.com/cooklang/cookcli/issues/544)
+* **ui:** scale a recipe by servings when it declares them ([#565](https://github.com/cooklang/cookcli/issues/565)) ([1e2978f](https://github.com/cooklang/cookcli/commit/1e2978f8c1ca618634dbc80cbba84917cdb26b07))
+* **web:** shrink title pictures in the browser, always re-encode on the server ([5d70e2e](https://github.com/cooklang/cookcli/commit/5d70e2e5d4f9b64133a1bdc98b72fde2b46bb887))
+
+
+### Bug Fixes
+
+* **ci:** stop CI and releases from failing silently ([#569](https://github.com/cooklang/cookcli/issues/569)) ([d7ddece](https://github.com/cooklang/cookcli/commit/d7ddecef89215e6ae770cfdec76d00e448056a75))
+* **i18n:** drop the error page strings defined twice ([#579](https://github.com/cooklang/cookcli/issues/579)) ([9e0fd06](https://github.com/cooklang/cookcli/commit/9e0fd06495a8c034a5b923801eb70f9c15ccbdf7))
+* **i18n:** translate the messages that only existed in English ([#567](https://github.com/cooklang/cookcli/issues/567)) ([347e0e2](https://github.com/cooklang/cookcli/commit/347e0e262f5fa510594098ffc55effdb995ab711))
+* **server:** keep search and menu on one line on mobile ([7cc2c4a](https://github.com/cooklang/cookcli/commit/7cc2c4a03285bcd077664d27b090b2f34d479de9))
+* **server:** limit the recipe file endpoints to .cook and .menu files ([#550](https://github.com/cooklang/cookcli/issues/550)) ([6ff6f9c](https://github.com/cooklang/cookcli/commit/6ff6f9c011c998005719fc79f7991f126c7e3a06)), closes [#545](https://github.com/cooklang/cookcli/issues/545)
+* **server:** refuse cross-site WebSocket connections to the language server ([#524](https://github.com/cooklang/cookcli/issues/524)) ([c3c1b9e](https://github.com/cooklang/cookcli/commit/c3c1b9ebd9efdd5eedf8939957ec719deffe7515))
+* **server:** trust only localhost and IP addresses as the server's own origin ([d9eb064](https://github.com/cooklang/cookcli/commit/d9eb0640c08867f9a4f4369cbb17aa582079435d))
+* stop listing macOS ._ files as recipes ([#557](https://github.com/cooklang/cookcli/issues/557)) ([87c4f7b](https://github.com/cooklang/cookcli/commit/87c4f7bb27b3f08cb33dc0d855c7b73748943af0)), closes [#555](https://github.com/cooklang/cookcli/issues/555)
+* **web:** stop step picture paths escaping cooking mode's img src ([f4cf875](https://github.com/cooklang/cookcli/commit/f4cf8754822b010e1ca9ca0e2b2630cf95a1cdfd))
+* **web:** stop step picture paths escaping cooking mode's img src ([73ac842](https://github.com/cooklang/cookcli/commit/73ac8422b54484bc000dc03212402dcb619e14b6)), closes [#548](https://github.com/cooklang/cookcli/issues/548)
+
 ## [0.37.0](https://github.com/cooklang/cookcli/compare/v0.36.0...v0.37.0) (2026-09-24)
 
 
